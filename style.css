@@ -1,0 +1,407 @@
+body
+{
+	font-family: 'Open Sans';
+	color: #424242;
+	padding: 0;
+	margin: 0px auto;
+}
+
+#adminnav
+{
+	width: 100%;
+	height: 2em;
+	background-color: #424242;
+	margin-top: 0px;
+}
+
+#header
+{
+	width: 100%;
+	text-align: center;
+	/**border-bottom: 1px solid #424242;**/
+	font-size: 4em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	color: #424242;
+}
+
+#content
+{
+	width: 70%;
+	margin: 0px auto;
+}
+
+#footer
+{
+	width: 70%;
+	text-align: center;
+	margin: 0px auto;
+	padding: 0;
+}
+
+/** general text formatting **/
+
+.discription
+{
+	width: 50%;
+	margin: 0px auto;
+	text-align: center;
+}
+
+
+.discription h3
+{
+	font-size: 1em;
+}
+
+/** new post **/
+
+#input
+{
+	width: 70%;
+	margin: 0px auto;
+	text-align: center;
+}
+
+
+input, textarea
+{
+	border: none;
+	color: #424242;
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
+#input input
+{
+	font-size: 1.5em;
+}
+
+#input h2
+{
+	font-size: 1em;
+}
+
+#textarea input
+{
+	font-size: 1.1em;
+	font-family: arial;
+}
+
+/** post formatting **/
+
+#postheader
+{
+	width: 100%;
+	text-align: center;
+	font-size: 3em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	color: #424242;
+}
+
+.post
+{
+	width: 70%;
+	margin: 0px auto;
+}
+
+.heading
+{
+	font-size: 2em;
+	text-align: center;
+	
+}
+
+.author
+{
+	font-style: bold;
+	text-align: center;
+}
+
+/** comments **/
+
+#comments
+{
+	width: 70%;
+	margin: 0px auto;
+}
+
+.comment
+{
+	background-color: #BABABA;
+	color: #424242;
+	padding: 1.5em;
+}
+
+/** account page formatting **/
+
+#avatar
+{
+	text-align: center;
+}
+
+#avatar img 
+{
+    width: 200px;
+    height: 200px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    -ms-border-radius: 150px;
+    -o-border-radius: 150px;
+    border-radius: 150px;
+}
+							  
+/** buttons **/
+
+.classic_button
+{
+	text-align: center;
+	margin: 0px auto;
+	padding: 0;
+	color: #424242;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.nav_button
+{
+	height: 61%;
+	width: 3.5em;
+	padding: 6;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	color: white;
+	text-align: center;
+}
+
+.nav_button:hover
+{
+	background-color: white;
+	color: #424242;
+}
+
+/** alerts formatting **/
+
+#successful
+{
+	width: 100%;
+	text-align: center;
+	background-color: #5FB404; 
+	color: white;
+}
+
+#failed
+{
+	width: 100%;
+	text-align: center;
+	background-color: #FE2E2E; 
+	color: white;
+}
+
+/** things formatting **/
+
+h2
+{
+	font-weight: lighter;
+}
+
+textarea {
+   font-family: inherit;
+   font-size: inherit;
+}
+
+textarea:focus, input:focus{
+    outline: 0;
+}
+
+a, a:visited, a:active, a:hover
+{
+	text-decoration: none;
+	color: #424242;
+}
+
+.heading a, .heading a:visited
+{
+	color: #424242;
+}
+
+input[type=text] {padding:5px;}
+input[type=text]:focus {border-color: none;}
+
+input[type=submit] {padding:5px 15px; background:white; border:0 none;
+cursor:pointer;}
+
+/** MOBILE (RESPONSIVE) CSS **/
+
+@media only screen and (max-device-width: 480px) {
+
+#adminnav
+{
+	width: 100%;
+	height: 8em;
+	background-color: #424242;
+	margin-top: 0px;
+}
+
+#header
+{
+	font-size: 7em;
+	margin: 0px auto;
+	text-align: center;
+	width: 100%;
+}
+
+#content
+{
+	width: 100%;
+	margin: 0px auto;
+}
+
+#footer
+{
+	width: 90%;
+	font-size: 2em;
+}
+
+/** new post mobile **/
+#input 
+{
+	width: 90%;
+	font-size: 3em;
+}
+
+/** account page mobile **/
+
+#avatar 
+{
+	font-size: 3em;
+}
+
+#avatar img {
+               width: 500px;
+               height: 500px;
+               -webkit-border-radius: 300px;
+               -moz-border-radius: 300px;
+               -ms-border-radius: 300px;
+               -o-border-radius: 300px;
+                border-radius: 300px;
+                              }
+
+					  
+/** post formatting mobile **/
+
+#input h2
+{
+	font-size: 0.6em;
+}
+
+#postheader
+{
+	font-size: 5em;
+	margin: 0px auto;
+	text-align: center;
+	width: 100%;
+}
+
+.post
+{
+	width: 90%;
+	margin: 0px auto;
+	font-size: 3em;
+}
+
+.heading
+{
+	font-size: 80px;
+}
+
+/** comments mobile **/
+
+#comments
+{
+	width: 90%;
+	margin: 0px auto;
+}
+
+#comments h1
+{
+	font-size: 4em;
+	font-weight: lighter;
+}
+
+.comment
+{
+	font-size: 2.3em;
+	font-weight: lighter;
+}
+
+/** manage posts movile **/
+
+.manage
+{
+font-size: 1em
+}
+/** general text formatting mobile **/
+
+
+.discription
+{
+	width: 90%;
+	margin: 0px auto;
+	font-size: 3em;
+	text-align: center;
+}
+
+.discription h2
+{
+	text-align: center;
+	font-size: 1.8em;
+}
+
+.discription h3
+{
+	text-align: center;
+}
+
+h3
+{
+	font-size: 1.5em;
+}
+
+.discription #input
+{
+	font-size: 1em;
+}
+
+/** mobile buttons **/
+
+.nav_button
+{
+	height: 100%;
+	width: 7em;
+	padding: 5;
+	padding-top: 36;
+	color: white;
+	text-align: center;
+	font-size: 3em;
+}
+
+.nav_button:hover, .nav_button:active
+{
+	background-color: white;
+}
+
+.classic_button
+{
+	font-size: 70px;
+}
+
+/** mobile alerts formatting **/
+
+#successful, #failed
+{
+	font-size: 3.5em;
+}
+
+}

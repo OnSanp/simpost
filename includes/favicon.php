@@ -1,0 +1,1 @@
+<link rel="shortcut icon" href="<?php echo $favicon ?>" type="image/x-icon" />
